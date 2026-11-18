@@ -167,7 +167,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"title\": \"Yeni Etkinlik\",\r\n  \"category\": \"Eğitim\",\r\n  \"date\": \"2026-12-15\",\r\n  \"capacity\": 100,\r\n  \"time\": \"14:00\",\r\n  \"location\": \"Online\",\r\n  \"description\": \"Postman testi\"\r\n}",
+          "raw": "{\r\n  \"title\": \"Yeni Etkinlik\",\r\n  \"category\": \"Seminer\",\r\n  \"date\": \"2026-12-15\",\r\n  \"capacity\": 100,\r\n  \"time\": \"14:00\",\r\n  \"location\": \"Online\",\r\n  \"description\": \"Postman testi\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
