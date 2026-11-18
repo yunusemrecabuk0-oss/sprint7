@@ -126,7 +126,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/events/event-2",
+          "raw": "http://localhost:3000/events/6afd49de4abf8ab5611afa6e",
           "protocol": "http",
           "host": [
             "localhost"
@@ -134,7 +134,7 @@
           "port": "3000",
           "path": [
             "events",
-            "event-2"
+            "6afd49de4abf8ab5611afa6e"
           ]
         }
       },
