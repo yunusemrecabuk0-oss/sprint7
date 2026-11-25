@@ -1,3 +1,4 @@
+import { formatDate, parseDate } from "../utils/date.js";
 import mongoose from "mongoose";
 
 const eventSchema = new mongoose.Schema(
@@ -8,13 +9,22 @@ const eventSchema = new mongoose.Schema(
       required: true,
       enum: ["Seminer", "Atölye", "Söyleşi", "Yarışma"],
     },
-    date: { type: String, required: true },
+    date: {
+  type: Date,
+  required: true,
+  set: parseDate,
+  get: formatDate,
+},
     capacity: { type: Number, min: 0, default: 0 },
     time: { type: String, default: "" },
     location: { type: String, trim: true, default: "" },
     description: { type: String, trim: true, maxlength: 500, default: "" },
   },
-  { timestamps: true }
+  {
+  timestamps: true,
+  toJSON: { getters: true },
+  id: false,
+}
 );
 
 export const Event = mongoose.model("Event", eventSchema);

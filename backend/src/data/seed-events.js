@@ -2,7 +2,7 @@ export const seedEvents = [
   {
     title: "Yapay Zeka ve Geleceğin Meslekleri",
     category: "Seminer",
-    date: "2026-12-01",
+    date: "15-10-2026",
     time: "14:00",
     location: "Mühendislik Konferans Salonu",
     capacity: 120,
@@ -11,7 +11,7 @@ export const seedEvents = [
   {
     title: "Modern Web Geliştirme Atölyesi",
     category: "Atölye",
-    date: "2026-12-05",
+    date: "05-11-2026",
     time: "10:30",
     location: "Bilgisayar Lab-2",
     capacity: 40,
@@ -20,7 +20,7 @@ export const seedEvents = [
   {
     title: "Girişimcilik ve Kariyer Sohbetleri",
     category: "Söyleşi",
-    date: "2026-12-10",
+    date: "10-12-2026",
     time: "15:30",
     location: "Kültür Merkezi Salon B",
     capacity: 80,
@@ -29,7 +29,7 @@ export const seedEvents = [
   {
     title: "Algoritma ve Kodlama Maratonu",
     category: "Yarışma",
-    date: "2026-12-15",
+    date: "15-12-2026",
     time: "09:00",
     location: "Ana Kampüs Bilişim Salonu",
     capacity: 60,
@@ -38,7 +38,7 @@ export const seedEvents = [
   {
     title: "Siber Güvenlik Temelleri Semineri",
     category: "Seminer",
-    date: "2026-12-20",
+    date: "20-12-2026",
     time: "13:00",
     location: "Teknoloji Fakültesi Amfi-1",
     capacity: 150,
@@ -47,7 +47,7 @@ export const seedEvents = [
   {
     title: "UI/UX Tasarım ve Prototipleme",
     category: "Atölye",
-    date: "2026-12-24",
+    date: "24-12-2026",
     time: "11:00",
     location: "Tasarım Stüdyosu",
     capacity: 35,
